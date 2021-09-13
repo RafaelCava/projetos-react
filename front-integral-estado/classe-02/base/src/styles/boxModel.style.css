@@ -1,0 +1,55 @@
+.boxModel{
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 302px;
+  height: 410px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 24px 0 rgba(255,255,255,0.25);
+  border-radius: 20px;
+}
+
+.info img{
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 10px solid #ECF3FC;
+}
+
+.info h2{
+  margin-bottom: 10px;
+  color: #131E30;
+}
+.info h4{
+  margin-bottom: 50px;
+  color: #131E30;
+}
+
+.info p{
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.botao{
+  width: 302px; 
+  height: 62px;
+  border-radius: 8px;
+  border: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.seguir{
+  background-color: #459275;
+}
+
+.seguindo{
+  background-color: #97CEB9;
+}

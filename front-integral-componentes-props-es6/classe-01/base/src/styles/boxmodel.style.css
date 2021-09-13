@@ -1,0 +1,46 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 45vh;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.box img[alt="close"]{
+  width: 100%;
+  max-width: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.box img{
+  width: 100%;
+  max-width: 82px;
+  position: relative;
+  top: -15%;
+}
+
+.box h3{
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 320px;
+  text-align: center;
+}
+
+button{
+  position: relative;
+  bottom: -15%;
+  padding: 10px;
+  width: 200px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

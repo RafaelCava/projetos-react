@@ -1,0 +1,47 @@
+.BoxModel{
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+  height: 428px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.BoxModel h1{
+  margin-top: 20px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.BoxModel h3{
+  max-width: 190px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 20px auto;
+}
+
+.contagem{
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.contagem span{
+  flex-grow: 1;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contagem button{
+  padding: 5px 15px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #459275;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+}
